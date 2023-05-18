@@ -29,7 +29,7 @@ export default function Sub() {
 
   return (
     <fieldset className="ml-auto mr-auto">
-      <legend>Sub</legend>
+      <legend>Leaf Component - use client</legend>
       <div className="flex gap-3">
         <button onClick={handleUpdateUsingApi}>w/API</button>
         <button onClick={handleUpdateUsingAction}>w/Action</button>
